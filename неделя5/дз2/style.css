@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Carlo; 
+    src: url(/неделя5/fonts/Carlo/Carlo.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: New Rom Trial;
+    src: url(/неделя5/fonts/NewRomeTrial-Light.ttf);
+    font-weight: 400;
+}
+
+
+
+body{
+    background-color:#bea0c77f ;
+}
+
+
+.container{
+    background-image: url(/неделя5/assets/img/bdd442062655b2a85f44a08d78791185.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 170px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-title{
+    font-family: Carlo;
+    color: rgb(34, 132, 135);
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 30px;
+    letter-spacing: 2px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+.img-logo{
+    display: flex;
+   padding-bottom: 50px;
+   
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar{
+   display: flex;
+   gap: 70px;
+}
+
+li{
+    font-family: New Rom Trial;
+    list-style-type: none;
+   
+}
+ a{
+    text-decoration: none;
+    color:rgb(34, 132, 135);
+ }
+
+ .navbar a:hover{
+    background-color:  #53a1b3b6;
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 3px;
+    padding: 4px;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7px;
+        gap: 7px;
+        width: 80%;
+        
+        
+    }
+
+    .photo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 7px;
+        
+    }
+   .photo1{
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 7px;
+   }
+   .photo2{
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 7px;
+   }
+
+
+   .grey-image {
+    filter: grayscale(1); 
+    transition: 1s; 
+}
+.grey-image:hover {
+    filter: grayscale(0); 
+}
+
+.hover-image-scale {
+    display: inline-block; 
+    overflow: hidden;
+  }
+  .hover-image-scale img {
+    transition: 1s; 
+    display: block; 
+  }
+  .hover-image-scale img:hover {
+    transform: scale(1.2); 
+  }
