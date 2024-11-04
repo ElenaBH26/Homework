@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Roboto ;
+    src: url(/week6/fonts/Roboto/Roboto-Light.ttf);
+}
+
+.header{
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+     }
+
+     .navbar{
+     
+        list-style-type: none;
+        margin: 0;
+       
+        
+     }
