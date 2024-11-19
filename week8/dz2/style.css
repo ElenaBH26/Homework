@@ -87,12 +87,12 @@ body{
     font-size: 35px;
 }
 
-.main-img__background{
+.main-img-background{
     grid-column: 2;
     grid-row: 1;
 }
 
-.main-img__guy{
+.main-img-guy{
     z-index: 1;
     grid-row: 1;
     grid-column: 2;
