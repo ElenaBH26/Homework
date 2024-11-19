@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Intro;
+    src: url(asssets2/font/Intro/IntroDemo-BlackCAPS.otf);
+}
+@font-face {
+    font-family: Roboto Slab;
+    src: url(asssets2/font/RobotoSlab.ttf);
+}
+
+
+body{
+    max-width: 1440px;
+}
+
+.header{
+    width: 100%;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    padding-left: 76px;
+}
+
+.btn{
+    border-radius: 30px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Intro, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: rgba(82, 34, 208, 1);
+}
+.btn-cart{
+    width: 115px;
+    height: 38px;
+    margin-right: 74px;
+}
+.logo{
+    width: 192px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 220px 100px 85px;
+    margin-top: 112px;
+    margin-left: 76px;
+}
+.main__title{
+    font-family: Intro, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    font-size: 60px;
+    width: 542px;
+    height: 216px;
+}
+.main__text{
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 100;
+    margin: 0;
+    grid-row: 2;
+    font-size: 20px;
+    margin-left: 45px ;
+    margin-top: 14px;
+    height: 98px;
+    width: 487px;
+}
+
+.btn-buy{
+    width:270px;
+    height: 84px;
+    border-radius: 60px;
+    grid-row: 3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 29px;
+    margin-left: 45px ;
+}
+
+.btn-buy__text{
+    font-size: 35px;
+}
+
+.main-img__background{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.main-img__guy{
+    z-index: 1;
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 69px;
+
+}
+.foo{
+    margin-top: 250px;
+    margin-left: 60px ;
+}
+
+.foo__list{
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    color:rgba(82, 34, 208, 1);
+}
+
+.foo__link{
+    text-decoration: none;
+}
+
+.content__title{
+    font-family: Intro, sans-serif;
+    margin-top: 89px;
+    margin-left: 125px;
+    font-size: 60px;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 600px;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 127px;
+    gap: 90px;
+}
+
+.content-section{
+    width: 365px ;
+}
+.content-section__subtitle{
+    font-family: Intro, sans-serif;
+    font-size: 30px ;
+    
+}
+
+.content-section__text{
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.content__img{
+    width: 365px;
+    hyphenate-character: 270px;
+}
+
+.content-section-another{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 127px;
+    gap: 90px;
+    
+}
+.content-form{
+    background-color: rgba(236, 97, 91, 1);
+    width: 365px;
+    font-family: Intro, sans-serif;
+    color: #ffffff;
+
+}
+
+
+
+
+.btn-subscribe{
+    width: 135px;
+    height: 38px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.content-form__input{
+    width: 323px;
+    height: 50px;
+    font-family: Roboto Slab, sans-serif;
+    margin-left: 20px;
+    border-color: white;
+    outline-color: transparent;
+    border-radius: 0;
+    border-style: none;
+}
+.content-form__subtitle{
+    margin-left: 20px;
+}
+
+.foo__another{
+    margin-top: 150px;
+    margin-left: 60px ;
+}
